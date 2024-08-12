@@ -109,7 +109,7 @@ def update_output(list_of_contents):
         
         
         #Load model, change image to array and predict
-        model = load_model(r'E:\Convolution Neural Network Based Enhanced Computerized brain\M3\models/model_final.h5') 
+        model = load_model(r'/content/drive/MyDrive/CNN_Brain_Tumor/CNN_99_model_2.h5') 
         dim = (150, 150)
         
         img = np.array(img_pil.resize(dim))
